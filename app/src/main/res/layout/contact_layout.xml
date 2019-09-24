@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    android:elevation="6dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        tools:text="Gaurav Bordoloi"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ctName"/>
+
+    <TextView
+        tools:text="7478870112"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:id="@+id/ctPhone" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btItemDelete"
+        android:text="Delete"
+        android:textAllCaps="false"
+        />
+
+</LinearLayout>
